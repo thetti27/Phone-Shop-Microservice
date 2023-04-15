@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{F053C675-35A6-441B-9024-A4AA092369E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationMicroservice", "AuthenticationMicroservice\AuthenticationMicroservice.csproj", "{B5C130CD-5740-4E3C-88F3-D6F816217176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneManagementMicroservice", "PhoneManagementMicroservice\PhoneManagementMicroservice.csproj", "{F4FB26DC-FB76-43FE-934C-01017897995B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5C130CD-5740-4E3C-88F3-D6F816217176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C130CD-5740-4E3C-88F3-D6F816217176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C130CD-5740-4E3C-88F3-D6F816217176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C130CD-5740-4E3C-88F3-D6F816217176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4FB26DC-FB76-43FE-934C-01017897995B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FB26DC-FB76-43FE-934C-01017897995B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FB26DC-FB76-43FE-934C-01017897995B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FB26DC-FB76-43FE-934C-01017897995B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5C130CD-5740-4E3C-88F3-D6F816217176} = {F053C675-35A6-441B-9024-A4AA092369E7}
+		{F4FB26DC-FB76-43FE-934C-01017897995B} = {F053C675-35A6-441B-9024-A4AA092369E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36B97F4A-83F6-4999-BD8C-C7242319AF66}
+	EndGlobalSection
+EndGlobal
