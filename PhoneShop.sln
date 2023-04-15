@@ -5,9 +5,11 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{F053C675-35A6-441B-9024-A4AA092369E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationMicroservice", "AuthenticationMicroservice\AuthenticationMicroservice.csproj", "{B5C130CD-5740-4E3C-88F3-D6F816217176}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationMicroservice", "AuthenticationMicroservice\AuthenticationMicroservice.csproj", "{B5C130CD-5740-4E3C-88F3-D6F816217176}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneManagementMicroservice", "PhoneManagementMicroservice\PhoneManagementMicroservice.csproj", "{F4FB26DC-FB76-43FE-934C-01017897995B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneManagementMicroservice", "PhoneManagementMicroservice\PhoneManagementMicroservice.csproj", "{F4FB26DC-FB76-43FE-934C-01017897995B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.Ocelot", "PhoneShop.Ocelot\PhoneShop.Ocelot.csproj", "{8795C696-A048-42EA-AE55-13F424E259DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{F4FB26DC-FB76-43FE-934C-01017897995B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4FB26DC-FB76-43FE-934C-01017897995B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4FB26DC-FB76-43FE-934C-01017897995B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8795C696-A048-42EA-AE55-13F424E259DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8795C696-A048-42EA-AE55-13F424E259DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8795C696-A048-42EA-AE55-13F424E259DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8795C696-A048-42EA-AE55-13F424E259DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B5C130CD-5740-4E3C-88F3-D6F816217176} = {F053C675-35A6-441B-9024-A4AA092369E7}
 		{F4FB26DC-FB76-43FE-934C-01017897995B} = {F053C675-35A6-441B-9024-A4AA092369E7}
+		{8795C696-A048-42EA-AE55-13F424E259DB} = {F053C675-35A6-441B-9024-A4AA092369E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36B97F4A-83F6-4999-BD8C-C7242319AF66}

@@ -1,0 +1,41 @@
+{
+
+  "GlobalConfiguration": {
+    "BaseURL": "http://localhost:5071"
+  },
+
+  phone
+
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/phone",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/phone",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "locahost",
+          "Port": 5176
+        }
+      ]
+    },
+
+    {
+      "UpstreamPathTemplate": "/gateway/phone/(Id)",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/phone/(Id)",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "locahost",
+          "Port": 5176
+        }
+      ]
+    }
+
+
+  ]
+
+
+
+}
