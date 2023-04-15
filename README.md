@@ -5,5 +5,5 @@ This project is a RESTful API for managing a catalog of phone models. The API al
 ### Getting Started
 To use this API, you'll need to have a development environment set up with the following software:
 
--.NET 6.0 SDK
+- .NET 6.0 SDK
 - An IDE such as Visual Studio or Visual Studio Code
